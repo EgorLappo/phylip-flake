@@ -17,10 +17,10 @@
         phylip-drv = pkgs.stdenv.mkDerivation
           {
             name = "phylip";
-            version = "3.698";
+            version = "3.697";
             src = pkgs.fetchzip {
-              url = "http://evolution.gs.washington.edu/phylip/download/phylip-3.698.zip";
-              hash = "sha256-00MnGDhK+n0Eut2brL9w1gfZ1fdXUpmVPAZHlVew6lA=";
+              url = "https://phylipweb.github.io/phylip/download/phylip-3.697.tar.gz";
+              hash = "sha256-u6M3VyBNRKPRDuqz9dzsNkaYbsdqWgioThK2lWiL6Vg=";
             };
 
             # a fix for some problem in the code connected with double importing the same .h file and absence of "extern" keyword
